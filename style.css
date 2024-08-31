@@ -1,0 +1,28 @@
+a {
+    background-color: #456;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+a:hover{
+    color: red ;
+}
+#active{
+    background-color: lightseagreen;
+}
+#welcome{
+    color: #456;
+    font-family: arial;
+}
+table{
+    width: 80%;
+    hight: 30%;
+    margin-left: 20%;
+    background-color: aliceblue;
+    font-family: arial;
+}
+
+
+

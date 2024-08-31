@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="utf-8">
+<head>
+    <title>Natan Photo Studio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Natan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-3 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-bold">Welcome to Natan Photo Gallery</h1>
+                <a href="gallery.html" class="btn btn-primary">Our Gallery</a>
+                <a href="contact.html" class="btn btn-primary">Our Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+<!--             <div class="col-md-4"></div>
+ -->            <div class="col-md-4">
+                <div class="card bg-info" style="width: 18rem;">
+                    <div class="card-header">Contact Us</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: 092181011</li>
+                        <li class="list-group-item">Telegram: @Natanstudio</li>
+                        <li class="list-group-item">Address: Ayat, Addis Ababa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-info">Contact Form</div>
+                    <div class="card-body">
+                        <form name="comment_form" method="post">
+                            <label>Full Name</label><br>
+                            <input class="form-control" type="text" name="fullname" /><br/>
+                            <label>Email:</label><br>
+                            <input class="form-control" type="email" name="email" /><br/>
+                            <label>Comment</label><br>
+                            <textarea class="form-control" name="comment" rows="5" cols="50">Write your comment here</textarea><br>
+                            <input class="btn btn-success" type="submit" value="Send Comment">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+</body>
+</html>
